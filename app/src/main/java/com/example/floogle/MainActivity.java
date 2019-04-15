@@ -17,6 +17,15 @@ public class MainActivity extends AppCompatActivity {
     public void dnd_mode(View view) {
         Intent switch_screen = new Intent(this, Do_not_disturb.class);
         startActivity(switch_screen);
-
     }
+
+    public void calendar_mode(View view) {
+        Intent switch_screen = new Intent(this, calendar.class);
+        startActivity(switch_screen);
+    }
+
+    /*public void keyboard_mode(View view) {
+        Intent switch_screen = new Intent(this, Keyboard.class);
+        startActivity(switch_screen);
+    }*/
 }
