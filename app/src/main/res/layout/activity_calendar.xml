@@ -4,6 +4,141 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".calendar">
+    tools:context=".Calendar">
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Spinner
+        android:id="@+id/spinner9"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Spinner
+        android:id="@+id/spinner10"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <Spinner
+        android:id="@+id/spinner11"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a time to turn on DND mode"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From..."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To..."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="339dp" />
 
 </android.support.constraint.ConstraintLayout>
